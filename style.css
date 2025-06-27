@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.tools {
+  margin-bottom: 15px;
+}
+
+#colorPicker, #brushSize {
+  margin: 0 10px;
+}
+
+#clearBtn {
+  margin-left: 10px;
+  padding: 7px 12px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#canvas {
+  border: 2px solid #000;
+  margin-top: 10px;
+  cursor: crosshair;
+}
+
+.preset-colors {
+  display: inline-flex;
+  gap: 5px;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+.preset {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: 1px solid #ccc;
+}
